@@ -10,9 +10,10 @@ Em prol de configurar um ambiente para o desenvolvimento do blog por meio do Wor
 Tendo realizado o download do Wordpress, este pode facilmente ser instalado por meio da inserção de seus arquivos dentro do diretório `htdocs` no xampp. Sendo o serviço acessível no Apache por meio da rota equivalente ao nome do diretório escolhido.
 
 #### Tema Básico
-    Escolhi realizar a configuração inicial sem um gerador de código para maior compreensão da hierarquia do WordPress e funcionamento da disposição dos posts, recuperação das informações e funcionamento das rotas por meio dos permalinks, ou seja, compreender o emprego das funções nativas do WordPress.
+Escolhi realizar a configuração inicial sem um gerador de código para maior compreensão da hierarquia do WordPress e funcionamento da disposição dos posts, recuperação das informações e funcionamento das rotas por meio dos permalinks, ou seja, compreender o emprego das funções nativas do WordPress.
 > Os arquivos essenciais para a criação do tema são os arquivos style.css e index.php
-- Para otimizar a utilização de código, dividir em mais componente, podemos adicionar um diretório no projeto, o 'includes'/'inc', caso queremos recuperar esses "componentes php" podemos utilizar a função nativa `get_template_part()`. 
+
+- Para otimizar a utilização de código, dividir em mais componentes, podemos adicionar um diretório no projeto, o 'includes'/'inc', caso querermos recuperarmos esses "componentes php" podemos utilizar a função nativa `get_template_part()`. 
 
 #### Geração de Posts
 A instalação de plugins pode ser realizada de maneira rápida por meio da aba plugins, o utilizado foi o FakerPress que foi configurado com as cinco categorias escolhidas e Post Type customizado para a geração de conteúdo para a realização de testes;
