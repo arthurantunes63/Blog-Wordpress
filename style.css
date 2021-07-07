@@ -1,0 +1,22 @@
+/*
+Theme Name: Worpress Simple Blog
+Author: Arthur Antunes
+Description: Tema realizado para candidatura de desenvolvedor para a empresa CGN
+*/ 
+
+/* Algumas estilizações diretamente nos componentes do conteúdo disposto no Loop */
+
+.post-content {
+    text-align: justify;
+}
+
+.post-content img {
+    border-radius: 10px;
+
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+    width: 30vw; 
+    height: auto;
+}
